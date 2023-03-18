@@ -55,6 +55,8 @@ IMask(document.getElementById('date'), {
     overwrite: true  // defaults to `false`
 })
 
+// Animation ------>>>
+
 const btnShowForm = document.getElementById('btn-show-form')
 const contForm = document.getElementById('container-form')
 btnShowForm.addEventListener('click', toggleForm)
