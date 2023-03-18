@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form with animation</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="container-sec">
+    <h1>Form with animation</h1>
+
+        <button id="btn-show-form" class="btn-show-form">Show form</button>
+
+            <div id="container-form" class="container-form">
+
+                <form action="" method="get" class="form-example">
+                    <div class="form-example">
+                        <label for="phone">Enter your phone: </label>
+                        <input type="text" name="phone" id="phone" required>
+                    </div>
+
+                    <div class="form-example">
+                        <label for="date">Enter date: </label>
+                        <input type="text" name="date" id="date" required>
+                    </div>
+
+                    <div class="form-example">
+                        <input type="submit" value="Subscribe!" class="btn-submit">
+                    </div>
+                </form>
+            </div>
+</div>
+
+<script src="https://unpkg.com/imask"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+<!-- ALL FEATURES HERE-- https://animejs.com/ -->
+<script src="app.js"></script>
+</body>
+</html>
